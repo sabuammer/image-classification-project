@@ -1,6 +1,6 @@
 # Project Description
 
-The following project was done in my machine learning class and consisted of fine-tuning parameters for several different machine learning algorithms and finding which ones lead to the best mean F1 score on the train and test splits of the dataset. The overall dataset consisted of 13,233 64x64 grayscale images. Binary classification was done using two sets of labels. The first set of labels determined whether or not an image was of George Bush and the second set of labels determined whether or not an image was of Serena Williams. The project was split into 4 phases that I will describe below.
+The following project was done in my machine learning class and consisted of fine-tuning parameters for several different machine learning algorithms and finding which ones lead to the best mean F1 score on the train and test splits of the dataset. The overall dataset consisted of 13,233 64x64 grayscale images. Binary classification was done using two sets of labels. The first set of labels determined whether or not an image was of George Bush and the second set of labels determined whether or not an image was of Serena Williams. The project was split into 4 phases and work was done in a separate jupyter notebook for each of the phases. The notebooks for each phase are available in the repo. The work done in each phase is described below.
 
 ## Phase 1
 
