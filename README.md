@@ -16,11 +16,10 @@ values I obtained using SVC with those parameters.
 
 
 
-![image-20181219113411272](/Users/sabuammer/Library/Application Support/typora-user-images/image-20181219113411272.png)
+<img src="./imgs/Phase 1 Bush.png">
 
 
-
-![image-20181219113613375](/Users/sabuammer/Library/Application Support/typora-user-images/image-20181219113613375.png)
+<img src="./imgs/Phase 1 Williams.png">
 
 
 
@@ -39,11 +38,11 @@ the best results for both the Bush and Williams datasets.
 
 
 
-![image-20181219114302382](/Users/sabuammer/Library/Application Support/typora-user-images/image-20181219114302382.png)
+<img src="./imgs/Phase 2 Bush.png">
 
 
 
-![image-20181219114315686](/Users/sabuammer/Library/Application Support/typora-user-images/image-20181219114315686.png)
+<img src="./imgs/Phase 2 Williams.png">
 
 
 
