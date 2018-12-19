@@ -1,6 +1,6 @@
 # Project Description
 
-The following project was done in my machine learning class and consisted of fine-tuning parameters for several different machine learning algorithms and finding which ones lead to the best mean F1 score on the train and test splits of the dataset. The overall dataset consisted of 13,233 64x64 grayscale images. Binary classification was done using two sets of labels. The first set of labels determined whether or not an image was of George Bush and the second set of labels determined whether or not an image was of Serena Williams. The project was split into 4 phases that I will describe below.
+The following project was done in my machine learning class and consisted of fine-tuning parameters for several different machine learning algorithms and finding which ones lead to the best mean F1 score on the train and test splits of the dataset. The overall dataset consisted of 13,233 64x64 grayscale images. Binary classification was done using two sets of labels. The first set of labels determined whether or not an image was of George Bush and the second set of labels determined whether or not an image was of Serena Williams. The project was split into 4 phases and work was done in a separate jupyter notebook for each of the phases. The notebooks for each phase are available in the repo. The work done in each phase is described below.
 
 ## Phase 1
 
@@ -59,7 +59,7 @@ datasets.
 
 For phase 3 of the project, I developed a Convolutional Neural Network (CNN) in order to further try to increase the mean F1 values obtained from classification on the Bush and Williams datasets. The image below depicts the structure of the CNN used for both of the datasets:
 
-![bush_model](/Users/sabuammer/Desktop/IIT/Fall 2018/CS584/Project/Phase 3/bush_model.svg)
+<img src="./imgs/bush_model.svg">
 
 The first layer is a 2D convolutional layer with 32 output filters and a 3x3 kernel with a stride of 1. The activation function for this layer is ReLU. The next layer is a 2D max pooling layer with a 2x2 pool size and a stride of 2. The following layer is a flatten layer used to transform the output into a 1D vector so that it can be used in the two fully connected (dense) layers to follow. The first dense layer has 16 neurons and ReLU for its activation function. The second dense layer has 8 neurons and also has ReLU for its activation function. Finally, the last dense layer is the output layer with 1 neuron and a sigmoid activation function. 
 
